@@ -1,0 +1,9 @@
+2021-08-10 18:11:27,200 [INFO] Created log file
+2021-08-10 18:11:27,393 [INFO] Building cells.
+2021-08-10 18:11:27,737 [INFO] Building recurrent connections
+2021-08-10 18:11:27,752 [INFO] Building virtual cell stimulations for Source_spikes
+2021-08-10 18:11:27,833 [INFO] Running simulation for 30.000 ms with the time step 0.025 ms
+2021-08-10 18:11:27,840 [INFO] Starting timestep: 0 at t_sim: 0.000 ms
+2021-08-10 18:11:27,846 [INFO] Block save every 1200 steps
+2021-08-10 18:11:28,469 [INFO]     step:1200 t_sim:30.00 ms
+2021-08-10 18:11:28,536 [INFO] Simulation completed in 0.703 seconds 

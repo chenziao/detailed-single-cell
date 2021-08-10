@@ -1,0 +1,2 @@
+edge_type_id target_query source_query syn_weight weight_function model_template target_sections distance_range delay dynamics_params
+100 * pop_name=='Source' 0.05 NULL exp2syn ['soma'] "[0.0, 1000.0]" 0.0 AMPA_ExcToExc.json

@@ -1,2 +1,2 @@
-node_type_id rotation_angle_zaxis cell_name rotation_angle_yaxis model_template rotation_angle_xaxis model_type model_processing potental morphology dynamics_params
-100 1.780663050589811 Cell 1.4383665458853898 ctdb:Biophys1.hoc 1.3491990807882348 biophysical aibs_perisomatic exc rotate_morphology.swc fit_488695444_f9.json
+node_type_id rotation_angle_zaxis rotation_angle_yaxis model_processing potental dynamics_params cell_name rotation_angle_xaxis morphology model_type model_template
+100 -1.333226810121865 0.27344031218356246 aibs_perisomatic exc fit_488695444_f9.json Cell 1.80734482388527 rotate_morphology.swc biophysical ctdb:Biophys1.hoc

@@ -1,32 +1,32 @@
 {
-  "network": "/home/matt/PycharmProjects/detailed-single-cell/sim_details/circuit_config.json",
-  "simulation": "/home/matt/PycharmProjects/detailed-single-cell/sim_details/simulation_config.json",
-  "config_path": "/home/matt/PycharmProjects/detailed-single-cell/sim_details/config.json",
-  "config_dir": "/home/matt/PycharmProjects/detailed-single-cell/sim_details",
+  "network": "D:/reserch_temp/detailed-single-cell/sim_details/circuit_config.json",
+  "simulation": "D:/reserch_temp/detailed-single-cell/sim_details/simulation_config.json",
+  "config_path": "D:\\reserch_temp\\detailed-single-cell\\sim_details\\config.json",
+  "config_dir": "D:\\reserch_temp\\detailed-single-cell\\sim_details",
   "components": {
-    "__pycache___dir": "/home/matt/PycharmProjects/detailed-single-cell/sim_details/components/__pycache__",
-    "biophysical_neuron_models_dir": "/home/matt/PycharmProjects/detailed-single-cell/sim_details/components/biophysical_neuron_models",
-    "templates_dir": "/home/matt/PycharmProjects/detailed-single-cell/sim_details/components/templates",
-    "mechanisms_dir": "/home/matt/PycharmProjects/detailed-single-cell/sim_details/components/mechanisms",
-    "synaptic_models_dir": "/home/matt/PycharmProjects/detailed-single-cell/sim_details/components/synaptic_models",
-    "morphologies_dir": "/home/matt/PycharmProjects/detailed-single-cell/sim_details/components/morphologies",
-    "point_neuron_models_dir": "/home/matt/PycharmProjects/detailed-single-cell/sim_details/components/point_neuron_models"
+    "biophysical_neuron_models_dir": "D:\\reserch_temp\\detailed-single-cell\\sim_details\\components\\biophysical_neuron_models",
+    "mechanisms_dir": "D:\\reserch_temp\\detailed-single-cell\\sim_details\\components\\mechanisms",
+    "morphologies_dir": "D:\\reserch_temp\\detailed-single-cell\\sim_details\\components\\morphologies",
+    "point_neuron_models_dir": "D:\\reserch_temp\\detailed-single-cell\\sim_details\\components\\point_neuron_models",
+    "synaptic_models_dir": "D:\\reserch_temp\\detailed-single-cell\\sim_details\\components\\synaptic_models",
+    "templates_dir": "D:\\reserch_temp\\detailed-single-cell\\sim_details\\components\\templates",
+    "__pycache___dir": "D:\\reserch_temp\\detailed-single-cell\\sim_details\\components\\__pycache__"
   },
   "networks": {
     "nodes": [
       {
-        "node_types_file": "/home/matt/PycharmProjects/detailed-single-cell/network/Cell_node_types.csv",
-        "nodes_file": "/home/matt/PycharmProjects/detailed-single-cell/network/Cell_nodes.h5"
+        "nodes_file": "D:\\reserch_temp\\detailed-single-cell\\network\\Cell_nodes.h5",
+        "node_types_file": "D:\\reserch_temp\\detailed-single-cell\\network\\Cell_node_types.csv"
       },
       {
-        "node_types_file": "/home/matt/PycharmProjects/detailed-single-cell/network/Source_node_types.csv",
-        "nodes_file": "/home/matt/PycharmProjects/detailed-single-cell/network/Source_nodes.h5"
+        "nodes_file": "D:\\reserch_temp\\detailed-single-cell\\network\\Source_nodes.h5",
+        "node_types_file": "D:\\reserch_temp\\detailed-single-cell\\network\\Source_node_types.csv"
       }
     ],
     "edges": [
       {
-        "edge_types_file": "/home/matt/PycharmProjects/detailed-single-cell/network/Source_Cell_edge_types.csv",
-        "edges_file": "/home/matt/PycharmProjects/detailed-single-cell/network/Source_Cell_edges.h5"
+        "edges_file": "D:\\reserch_temp\\detailed-single-cell\\network\\Source_Cell_edges.h5",
+        "edge_types_file": "D:\\reserch_temp\\detailed-single-cell\\network\\Source_Cell_edge_types.csv"
       }
     ],
     "gap_juncs": []
@@ -48,14 +48,14 @@
     "Source_spikes": {
       "input_type": "spikes",
       "module": "csv",
-      "input_file": "/home/matt/PycharmProjects/detailed-single-cell/sim_details/synaptic_input.csv",
+      "input_file": "D:\\reserch_temp\\detailed-single-cell\\sim_details/synaptic_input.csv",
       "node_set": "Source"
     }
   },
   "output": {
-    "log_file": "/home/matt/PycharmProjects/detailed-single-cell/sim_details/output/log.txt",
-    "output_dir": "/home/matt/PycharmProjects/detailed-single-cell/sim_details/output",
-    "spikes_file": "/home/matt/PycharmProjects/detailed-single-cell/sim_details/output/spikes.h5"
+    "log_file": "D:\\reserch_temp\\detailed-single-cell\\sim_details/output\\log.txt",
+    "output_dir": "D:\\reserch_temp\\detailed-single-cell\\sim_details/output",
+    "spikes_file": "D:\\reserch_temp\\detailed-single-cell\\sim_details/output\\spikes.h5"
   },
   "reports": {
     "v_report": {
@@ -68,12 +68,12 @@
       "cells": "all",
       "variable_name": "ecp",
       "module": "extracellular",
-      "electrode_positions": "/home/matt/PycharmProjects/detailed-single-cell/sim_details/linear_electrode.csv",
+      "electrode_positions": "D:\\reserch_temp\\detailed-single-cell\\sim_details/linear_electrode.csv",
       "file_name": "ecp.h5",
       "electrode_channels": "all"
     }
   },
-  "node_sets_file": "/home/matt/PycharmProjects/detailed-single-cell/sim_details/node_sets.json",
+  "node_sets_file": "D:\\reserch_temp\\detailed-single-cell\\sim_details/node_sets.json",
   "node_sets": {
     "biophysical_nodes": {
       "model_type": "biophysical"

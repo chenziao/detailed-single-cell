@@ -1,2 +1,2 @@
-node_type_id potental dynamics_params cell_name morphology model_template rotation_angle_xaxis rotation_angle_zaxis model_processing model_type rotation_angle_yaxis
-100 exc neuronal_model_496930324.json Cell neuronal_model_496930324_rotate.swc ctdb:Biophys1.hoc 0.7854077533974491 0.0 aibs_allactive biophysical 0.0
+node_type_id rotation_angle_yaxis rotation_angle_xaxis model_type model_template morphology model_processing rotation_angle_zaxis dynamics_params cell_name potental
+100 0.0 0.7854077533974491 biophysical ctdb:Biophys1.hoc neuronal_model_497229089_rotate.swc aibs_allactive 0.0 neuronal_model_497229089.json Cell exc

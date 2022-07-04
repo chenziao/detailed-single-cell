@@ -1,9 +1,9 @@
-2022-06-29 14:24:41,593 [INFO] Created log file
-2022-06-29 14:24:41,789 [INFO] Building cells.
-2022-06-29 14:24:42,136 [INFO] Building recurrent connections
-2022-06-29 14:24:42,142 [INFO] Building virtual cell stimulations for Source_spikes
-2022-06-29 14:24:43,424 [INFO] Running simulation for 30.000 ms with the time step 0.025 ms
-2022-06-29 14:24:43,426 [INFO] Starting timestep: 0 at t_sim: 0.000 ms
-2022-06-29 14:24:43,429 [INFO] Block save every 1200 steps
-2022-06-29 14:24:45,865 [INFO]     step:1200 t_sim:30.00 ms
-2022-06-29 14:24:45,955 [INFO] Simulation completed in 2.531 seconds 
+2022-07-03 23:31:50,250 [INFO] Created log file
+2022-07-03 23:31:50,430 [INFO] Building cells.
+2022-07-03 23:31:50,569 [INFO] Building recurrent connections
+2022-07-03 23:31:50,574 [INFO] Building virtual cell stimulations for Source_spikes
+2022-07-03 23:31:50,756 [INFO] Running simulation for 30.000 ms with the time step 0.025 ms
+2022-07-03 23:31:50,759 [INFO] Starting timestep: 0 at t_sim: 0.000 ms
+2022-07-03 23:31:50,764 [INFO] Block save every 1200 steps
+2022-07-03 23:31:52,217 [INFO]     step:1200 t_sim:30.00 ms
+2022-07-03 23:31:52,291 [INFO] Simulation completed in 1.535 seconds 

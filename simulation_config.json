@@ -14,7 +14,7 @@
   },
   "conditions": {
     "celsius": 34.0,
-    "v_init": -91.63188171386719
+    "v_init": -90.0
   },
   "inputs": {
     "Source_spikes": {

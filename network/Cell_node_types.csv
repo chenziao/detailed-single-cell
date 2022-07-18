@@ -1,2 +1,2 @@
-node_type_id model_type potental morphology model_template model_processing cell_name dynamics_params
-100 biophysical exc neuronal_model_491766131_rotate.swc ctdb:Biophys1.hoc aibs_allactive Cell neuronal_model_491766131.json
+node_type_id morphology potental cell_name dynamics_params model_processing model_type model_template
+100 neuronal_model_491766131_rotate.swc exc Cell neuronal_model_491766131.json aibs_allactive biophysical ctdb:Biophys1.hoc

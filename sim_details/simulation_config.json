@@ -1,12 +1,12 @@
 {
   "manifest": {
     "$BASE_DIR": "${configdir}",
-    "$OUTPUT_DIR": "$BASE_DIR\\output"
+    "$OUTPUT_DIR": "$BASE_DIR/output"
   },
   "target_simulator": "NEURON",
   "run": {
     "tstart": 0.0,
-    "tstop": 300.0,
+    "tstop": 30.0,
     "dt": 0.025,
     "dL": 20.0,
     "spike_threshold": -15.0,
@@ -17,14 +17,11 @@
     "v_init": -90.0
   },
   "inputs": {
-    "current_clamp": {
-      "input_type": "current_clamp",
-      "module": "IClamp",
-      "node_set": "all",
-      "gids": "all",
-      "amp": -0.01,
-      "delay": 100.0,
-      "duration": 150.0
+    "Source_spikes": {
+      "input_type": "spikes",
+      "module": "csv",
+      "input_file": "$BASE_DIR/synaptic_input.csv",
+      "node_set": "Source"
     }
   },
   "output": {
@@ -38,7 +35,22 @@
       "cells": "all",
       "module": "membrane_report",
       "sections": "soma"
+    },
+    "ecp_report": {
+      "cells": "all",
+      "variable_name": "ecp",
+      "module": "extracellular",
+      "electrode_positions": "$BASE_DIR/linear_electrode.csv",
+      "file_name": "ecp.h5",
+      "electrode_channels": "all"
+    },
+    "imem_report": {
+      "variable_name": "i_membrane_",
+      "cells": "all",
+      "module": "membrane_report",
+      "file_name": "imem.h5",
+      "sections": "all"
     }
   },
-  "node_sets_file": "$BASE_DIR\\node_sets.json"
+  "node_sets_file": "$BASE_DIR/node_sets.json"
 }

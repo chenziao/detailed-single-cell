@@ -35,12 +35,16 @@ def plot_variable_with_morphology(seg_coords, seg_prop, variable, t=None, axes =
         dmin, dmax = np.sort(distance_range)
     else:
         dmin, dmax = np.amin(dist), np.amax(dist)
-    dmin, dmax = np.array([dmin, dmax]) + (dmax - dmin) / n_dist / 2 * np.array([1, -1])
     if dmin * dmax < 0:
         n_pos = int(np.floor((n_dist - 1) * dmax / (dmax - dmin))) + 1
         n_neg = n_dist - n_pos
+        if distance_range is None:
+            dmin = dmin - dmin / (2 * n_neg + 1)
+            dmax = dmax - dmax / (2 * n_pos - 1)
         d_pts = np.concatenate((np.linspace(dmin, 0., n_neg, False), np.linspace(0., dmax, n_pos))) # include distance 0
     else:
+        if distance_range is None:
+            dmin, dmax = np.array([dmin, dmax]) + (dmax - dmin) / n_dist / 2 * np.array([1, -1])
         d_pts = np.linspace(dmin, dmax, n_dist)
 
     # Find segments at corresponding distances
